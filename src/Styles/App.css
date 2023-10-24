@@ -1,0 +1,21 @@
+body{
+  box-sizing: border-box;
+}
+h1, h2, h3 {margin: 5px;}
+.App {
+  margin:0 auto;
+  min-width: 1440px;
+  min-height: 2770px;
+  background-color: #181d21;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  gap: 50px;
+}
+
+
+
+
+
+

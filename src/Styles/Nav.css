@@ -1,0 +1,58 @@
+.Nav-back{
+box-sizing: border-box;
+padding: 2%;
+background-color: black;
+width: 100%;
+height:200px;
+display: flex;
+justify-items: center;
+align-items: center;
+
+}
+
+.Nav-barre{
+box-sizing: border-box;
+    padding: 5px;
+    width: 100%;
+    height: 100px;
+    background-color:#1E1E1E ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius:16px ;
+}
+.Nav-options{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.option{
+    box-sizing: border-box;
+    width: 80px;
+    height: 80px;
+    display: flex; 
+    justify-content: cent;
+    align-items: center; 
+    text-align: center;  
+    color:#ffffff;
+    text-decoration: none;
+    border-radius: 100px;
+}
+.option:hover {
+    color: #05B1E7; 
+    box-shadow: 5px 5px 15px 5px #05B1E7;
+}
+.Logo{
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+    border-radius: 100%;
+}
+.line{
+    width: 2px;
+    height: 50px;
+    background-color: white;
+}
