@@ -4,11 +4,11 @@ import { useState } from "react";
 function Nav() {
    // state
 
-   const [titres, setTitres]= useState ( [
+   const [titres]= useState ( [
     {id: 1, name: 'À propos de moi'},
     {id: 2,name: "Mes compétences"},
     { id: 3, name: "Modèles de Projets" },
-    {id:3, name: "Formulaire de contact"}
+    {id:4, name: "Formulaire de contact"}
   ]);   
 
 // Render
@@ -19,7 +19,7 @@ function Nav() {
                 <div className="Logo"><img src="src/Asset/md.png" alt="logo OMD"/></div>
                 <div className="line"></div>
                 <div className="Nav-options">{titres.map((titre) => {
-                    return <p className="option">{titre.name}</p>
+                    return <p className="option"key={titre.id}>{titre.name}</p>
                 })}
                 </div>  
                 
