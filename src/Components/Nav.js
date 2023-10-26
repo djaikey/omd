@@ -5,10 +5,10 @@ function Nav() {
    // state
 
    const [titres, setTitres]= useState ( [
-    {id: 1, name: 'À propos'},
-    {id: 2,name: "Compétences"},
+    {id: 1, name: 'À propos de moi'},
+    {id: 2,name: "Mes compétences"},
     { id: 3, name: "Modèles de Projets" },
-    {id:3, name: "Contact"}
+    {id:3, name: "Formulaire de contact"}
   ]);   
 
 // Render
