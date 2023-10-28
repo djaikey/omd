@@ -1,0 +1,34 @@
+.annimation{
+    width: 100%;
+    height: 100%;
+    
+}
+.orbe{
+    animation: spin 6s linear infinite;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    box-shadow: 10px 0px 50px 35px rgba(128,199,255,0.68);
+    box-shadow: -25px 0px 50px 35px rgba(228,136,255,0.68);
+      
+        
+}
+@keyframes spin {
+    0%{
+        top: 20px;
+    }
+    25%{
+        top: 22px;
+    }
+    50%{
+        top: 30px;
+    }
+    75%{
+        to:27px;
+    }
+    100%{
+        transform: rotate(360deg);
+        top:20px;
+    }
+}

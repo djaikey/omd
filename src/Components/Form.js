@@ -5,9 +5,7 @@ function Form() {
 
     //Comportement
     const handleSubmit = (e) => {
-        e.preventdefault(
-            
-        )
+        e.preventdefault();
         console.log(new FormData(e.target))
     }
     //Render
